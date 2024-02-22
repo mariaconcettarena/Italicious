@@ -174,3 +174,165 @@ let pannaCottaSteps = [
     "Once set, remove the Panna Cotta from the refrigerator and serve chilled, either in the glasses or ramekins or unmolded onto serving plates.",
     "Garnish with fresh berries, if desired, and enjoy your creamy and delicious Panna Cotta!"
 ]
+
+let pestoSteps = [
+    "Bring a large pot of salted water to a boil. Cook the pasta according to the package instructions until al dente. Reserve 1/2 cup of pasta water, then drain the pasta.",
+    "Meanwhile, in a food processor, combine the basil leaves, garlic cloves, pine nuts, and grated Parmesan cheese. Pulse until finely chopped.",
+    "With the food processor running, gradually add the olive oil in a steady stream until the mixture is smooth and well combined. Season with salt and black pepper to taste.",
+    "In a large skillet, heat the pesto sauce over medium heat. Add the cooked pasta and toss to coat, adding reserved pasta water as needed to loosen the sauce and create a creamy consistency.",
+    "Serve the pasta with pesto immediately, garnished with extra Parmesan cheese and fresh basil leaves, if desired. Enjoy!"
+]
+
+let tortelliniSteps = [
+    "In a large pot, bring the chicken broth to a gentle simmer over medium heat.",
+    "Add the tortellini to the simmering broth and cook according to the package instructions until they are al dente.",
+    "Once the tortellini are cooked, season the broth with salt and black pepper to taste.",
+    "Ladle the tortellini and broth into serving bowls.",
+    "Garnish with grated Parmesan cheese and chopped parsley.",
+    "Serve the tortellini in brodo hot and enjoy!"
+]
+
+let cotolettaSteps = [
+    "Place each veal cutlet between two sheets of plastic wrap and use a meat mallet to pound them until they are about 1/4 inch thick.",
+    "Season both sides of the veal cutlets with salt and black pepper.",
+    "Set up a breading station with three shallow dishes: one with all-purpose flour, one with beaten eggs, and one with a mixture of breadcrumbs and grated Parmesan cheese.",
+    "Dredge each veal cutlet in the flour, then dip it into the beaten eggs, and finally coat it with the breadcrumb mixture, pressing gently to adhere.",
+    "Heat vegetable oil in a large skillet over medium-high heat until it reaches 350°F (175°C).",
+    "Carefully place the breaded veal cutlets into the hot oil and fry for about 3-4 minutes on each side, or until they are golden brown and crispy.",
+    "Once cooked, transfer the cotolette to a paper towel-lined plate to drain any excess oil.",
+    "Serve the cotolette alla Milanese hot with lemon wedges on the side.",
+    "Enjoy your delicious and crispy cotoletta alla Milanese!"
+]
+
+let artichokesSteps = [
+    "Prepare the artichokes by trimming off the tough outer leaves and cutting off the top third of each artichoke. Use a spoon to remove the choke (the hairy part) from the center.",
+    "Rub the cut surfaces of the artichokes with lemon to prevent browning.",
+    "In a food processor, combine garlic, mint leaves, parsley, breadcrumbs, Parmesan cheese, salt, and black pepper. Pulse until finely chopped and well combined.",
+    "Stuff the breadcrumb mixture into the center of each artichoke, pressing it down firmly.",
+    "Place the stuffed artichokes in a deep saucepan or Dutch oven. Drizzle with olive oil and pour water into the bottom of the pan.",
+    "Cover the pan and cook the artichokes over medium-low heat for about 30-40 minutes, or until tender. Check occasionally and add more water if needed to prevent burning.",
+    "Once the artichokes are tender, remove them from the pan and serve hot or at room temperature.",
+    "Garnish with additional chopped parsley and a drizzle of extra virgin olive oil, if desired.",
+    "Enjoy your delicious and tender artichokes alla Romana!"
+]
+
+let polentaSteps = [
+    "In a large saucepan, bring the water to a boil.",
+    "Add salt to the boiling water.",
+    "Slowly pour the cornmeal into the boiling water, whisking constantly to prevent lumps from forming.",
+    "Reduce the heat to low and simmer the polenta, stirring frequently, for about 30-40 minutes, or until it thickens and pulls away from the sides of the pan.",
+    "Once the polenta is cooked to your desired consistency, remove it from the heat and stir in the butter until melted.",
+    "If desired, stir in grated Parmesan cheese for extra flavor.",
+    "Serve the polenta hot as a creamy side dish or allow it to cool and set before cutting into squares or slices for grilling or frying.",
+    "Enjoy your delicious and comforting polenta!"
+]
+
+let suppliSteps = [
+    "In a medium saucepan, bring the chicken or vegetable broth to a simmer.",
+    "In another large saucepan, melt the butter over medium heat. Add the chopped onion and cook until softened, about 5 minutes.",
+    "Add the rice to the saucepan with the onion and cook, stirring frequently, until the rice is toasted and translucent around the edges, about 2-3 minutes.",
+    "Pour in the white wine and cook until it is absorbed by the rice, stirring constantly.",
+    "Add a ladleful of the warm broth to the rice and stir until the liquid is absorbed. Continue adding the broth, one ladleful at a time, stirring frequently and allowing each addition to be absorbed before adding more. Cook until the rice is creamy and tender, about 18-20 minutes.",
+    "Remove the risotto from the heat and stir in the grated Parmesan cheese. Season with salt and black pepper to taste.",
+    "Spread the risotto out onto a baking sheet and let it cool completely.",
+    "Once the risotto is cool, take about 2 tablespoons of the mixture and flatten it in the palm of your hand. Place a cube of mozzarella cheese in the center and shape the rice into a small ball, enclosing the cheese completely. Repeat with the remaining risotto and cheese.",
+    "Dip each supplì ball into the beaten egg, then coat it in breadcrumbs, pressing gently to adhere.",
+    "In a large skillet, heat about 1 inch of oil over medium-high heat. Fry the supplì in batches until golden brown and crispy, about 2-3 minutes per side.",
+    "Transfer the fried supplì to a paper towel-lined plate to drain excess oil. Serve hot, garnished with fresh parsley if desired.",
+    "Enjoy your delicious homemade supplì, with its crispy exterior and gooey, cheesy center!"
+]
+
+let pastaBeansSteps = [
+    "In a large pot, heat the olive oil over medium heat. Add the diced carrot, celery, and onion. Cook until the vegetables are softened, about 5-7 minutes.",
+    "Add the minced garlic to the pot and cook for another minute, until fragrant.",
+    "Pour in the tomato sauce and vegetable broth. Add the bay leaf, rosemary, and thyme sprigs. Season with salt and black pepper to taste.",
+    "Bring the mixture to a simmer and let it cook for about 10 minutes to allow the flavors to meld together.",
+    "Stir in the drained and rinsed cannellini beans. Continue to simmer for another 10 minutes.",
+    "Add the pasta to the pot and cook according to package instructions until al dente, about 8-10 minutes.",
+    "Once the pasta is cooked, remove the bay leaf, rosemary, and thyme sprigs from the pot. Taste and adjust seasoning if necessary.",
+    "Serve the pasta e fagioli hot, garnished with freshly grated Parmesan cheese and chopped parsley.",
+    "Enjoy this hearty and comforting Italian soup, packed with the flavors of vegetables, beans, and pasta!"
+]
+
+let piadinaSteps = [
+    "In a large mixing bowl, combine the all-purpose flour, baking powder, and salt.",
+    "Make a well in the center of the dry ingredients and pour in the water and olive oil.",
+    "Using a fork or your hands, gradually incorporate the wet ingredients into the flour mixture until a dough forms.",
+    "Transfer the dough to a lightly floured surface and knead for about 5 minutes, or until smooth and elastic.",
+    "Divide the dough into 4 equal portions and shape each portion into a ball.",
+    "On a floured surface, roll out each dough ball into a thin round disc, about 1/8 inch thick.",
+    "Heat a non-stick skillet or griddle over medium heat. Once hot, place a piadina on the skillet and cook for about 2-3 minutes on each side, or until golden brown spots appear and the piadina is cooked through.",
+    "Repeat with the remaining dough balls, stacking the cooked piadine on a plate and covering them with a clean kitchen towel to keep warm.",
+    "Serve the piadine warm, filled with your favorite ingredients such as prosciutto, cheese, arugula, or grilled vegetables.",
+    "Enjoy your homemade piadina, a classic Italian flatbread that's perfect for any meal!"
+]
+
+let ricottapearsSteps =  [
+    "Preheat your oven to 350°F (175°C). Grease and flour a 9-inch round cake pan.",
+    "In a medium bowl, whisk together the all-purpose flour, baking powder, and salt. Set aside.",
+    "In a large mixing bowl, cream together the softened unsalted butter and granulated sugar until light and fluffy.",
+    "Add the eggs to the butter-sugar mixture, one at a time, beating well after each addition.",
+    "Mix in the ricotta cheese and vanilla extract until well combined.",
+    "Gradually add the dry ingredients to the wet ingredients, mixing until just combined. Be careful not to overmix.",
+    "In a small bowl, toss the sliced pears with lemon juice to prevent browning.",
+    "Spread half of the cake batter into the prepared cake pan. Arrange half of the sliced pears on top of the batter.",
+    "Cover the pears with the remaining cake batter, smoothing the top with a spatula.",
+    "Arrange the remaining sliced pears on top of the cake batter, pressing them lightly into the batter.",
+    "Bake in the preheated oven for 40-45 minutes, or until a toothpick inserted into the center of the cake comes out clean.",
+    "Allow the cake to cool in the pan for 10 minutes, then transfer it to a wire rack to cool completely.",
+    "Once cooled, dust the top of the cake with powdered sugar, if desired.",
+    "Slice and serve the ricotta cheese and pears cake, and enjoy!"
+]
+
+let cassataSteps = [
+    "Prepare a 9-inch round sponge cake and allow it to cool completely.",
+    "In a mixing bowl, combine the ricotta cheese and powdered sugar until smooth and creamy.",
+    "Fold in the diced candied fruit and dark chocolate chips into the ricotta mixture.",
+    "Slice the sponge cake horizontally into three equal layers.",
+    "Place one layer of sponge cake on the bottom of a cake ring or springform pan lined with plastic wrap.",
+    "Brush the cake layer with candied fruit syrup to moisten.",
+    "Spread half of the ricotta mixture evenly over the cake layer.",
+    "Top with another layer of sponge cake and repeat the process, brushing with syrup and spreading the remaining ricotta mixture.",
+    "Place the final layer of sponge cake on top and brush with syrup.",
+    "Cover the cake with plastic wrap and refrigerate for at least 4 hours or overnight to set.",
+    "Once set, remove the cake from the refrigerator and unmold it from the cake ring or springform pan.",
+    "Decorate the top of the cassata with maraschino cherries, candied fruit, and colored icing in traditional Sicilian patterns.",
+    "Slice and serve the cassata Siciliana chilled, and enjoy!"
+]
+
+let spongecakeSteps = [
+    "Preheat your oven to 350°F (175°C). Grease and flour a 9-inch round cake pan, tapping out any excess flour.",
+    "In a large mixing bowl, beat the eggs and granulated sugar together using an electric mixer until pale and fluffy, about 5-7 minutes.",
+    "Add the vanilla extract and beat until combined.",
+    "In a separate bowl, sift together the all-purpose flour, baking powder, and salt.",
+    "Gradually fold the dry ingredients into the egg mixture using a spatula, being careful not to deflate the batter.",
+    "Pour the batter into the prepared cake pan and spread it evenly.",
+    "Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center of the cake comes out clean.",
+    "Remove the cake from the oven and let it cool in the pan for 10 minutes, then transfer it to a wire rack to cool completely.",
+    "Once cooled, the sponge cake is ready to be sliced and enjoyed on its own or used as a base for various desserts."
+]
+
+let paradiseSteps = [
+    "Preheat your oven to 350°F (175°C). Grease and flour a 9x13-inch baking pan.",
+    "In a large mixing bowl, combine the flour, sugar, baking soda, and salt.",
+    "Add the crushed pineapple (with its juice), eggs, and vanilla extract to the dry ingredients. Stir until well combined.",
+    "Fold in the chopped pecans.",
+    "Pour the batter into the prepared baking pan and spread it evenly.",
+    "Bake in the preheated oven for 35-40 minutes, or until a toothpick inserted into the center comes out clean.",
+    "Remove the cake from the oven and allow it to cool completely in the pan.",
+    "Once cooled, slice and serve the Paradise Cake on its own or with a dollop of whipped cream or a scoop of vanilla ice cream for extra indulgence!"
+]
+
+let strudelSteps = [
+    "Preheat your oven to 375°F (190°C).",
+    "In a large bowl, toss the sliced apples with granulated sugar, cinnamon, nutmeg, lemon zest, and raisins until well combined.",
+    "Place one sheet of phyllo dough on a clean surface and brush it lightly with melted butter. Sprinkle breadcrumbs evenly over the phyllo dough.",
+    "Repeat the process with the remaining phyllo sheets, layering them on top of each other and brushing each layer with melted butter and sprinkling with breadcrumbs.",
+    "Spread the apple mixture evenly along one edge of the layered phyllo dough, leaving a border of about 2 inches on the sides.",
+    "Carefully roll the phyllo dough and apple filling into a log, tucking in the edges as you go.",
+    "Place the rolled strudel seam-side down on a baking sheet lined with parchment paper.",
+    "Brush the top of the strudel with remaining melted butter.",
+    "Bake in the preheated oven for 35-40 minutes, or until the strudel is golden brown and crisp.",
+    "Remove from the oven and allow to cool slightly before dusting with powdered sugar.",
+    "Slice the apple strudel into portions and serve warm. Enjoy!"
+]

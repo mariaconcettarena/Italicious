@@ -386,7 +386,285 @@ let recipes: [Recipe] = [
         imageName: "pannacotta",
         time: "4h",
         type: "sw"
+    ),
+    
+    Recipe(
+        name: "Pasta with Pesto",
+        quantity: "For 4 people",
+        ingredients: [
+            ("Pasta (such as spaghetti or penne)", "320g"),
+            ("Fresh basil leaves", "2 cups"),
+            ("Garlic cloves", "2"),
+            ("Pine nuts", "1/4 cup"),
+            ("Parmesan cheese, grated", "1/2 cup"),
+            ("Extra virgin olive oil", "1/2 cup"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste")
+        ],
+        steps: pestoSteps,
+        diff: 2,
+        imageName: "pesto",
+        time: "20min",
+        type: "sa"
+    ),
+    
+    Recipe(
+        name: "Tortellini with broth",
+        quantity: "Serves 4",
+        ingredients: [
+            ("Tortellini", "400g"),
+            ("Chicken broth", "1.5 liters"),
+            ("Parmesan cheese", "grated, for serving"),
+            ("Parsley", "chopped, for garnish"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste")
+        ],
+        steps: tortelliniSteps,
+        diff: 2,
+        imageName: "tortellini",
+        time: "20min",
+        type: "sa"
+    ),
+   Recipe(
+        name: "Milanese cutlet",
+        quantity: "Serves 4",
+        ingredients: [
+            ("Veal cutlets", "4 pieces, bone-in"),
+            ("Eggs", "2, beaten"),
+            ("Breadcrumbs", "1 cup"),
+            ("Parmesan cheese", "1/2 cup, grated"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste"),
+            ("All-purpose flour", "for dredging"),
+            ("Vegetable oil", "for frying"),
+            ("Lemon wedges", "for serving")
+        ],
+        steps: cotolettaSteps,
+        diff: 3,
+        imageName: "cotoletta",
+        time: "30min",
+        type: "sa"
+    ),
+    
+    Recipe(
+        name: "Artichokes alla Romana",
+        quantity: "Serves 4",
+        ingredients: [
+            ("Large artichokes", "4"),
+            ("Lemon", "1"),
+            ("Garlic cloves", "2"),
+            ("Fresh mint leaves", "a handful"),
+            ("Flat-leaf parsley", "a handful"),
+            ("Breadcrumbs", "1/2 cup"),
+            ("Parmesan cheese", "1/4 cup, grated"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste"),
+            ("Extra virgin olive oil", "1/4 cup"),
+            ("Water", "1 cup")
+        ],
+        steps: artichokesSteps,
+        diff: 3,
+        imageName: "artichokes",
+        time: "40min",
+        type: "sa"
+    ),
+    Recipe(
+        name: "Polenta",
+        quantity: "Serves 4",
+        ingredients: [
+            ("Cornmeal", "1 cup"),
+            ("Water", "4 cups"),
+            ("Salt", "1 teaspoon"),
+            ("Butter", "2 tablespoons"),
+            ("Parmesan cheese", "1/2 cup, grated (optional)")
+        ],
+        steps: polentaSteps,
+        diff: 2,
+        imageName: "polenta",
+        time: "40min",
+        type: "sa"
+    ),
+    Recipe(
+        name: "Supplì",
+        quantity: "Makes 10 supplì",
+        ingredients: [
+            ("Arborio rice", "1 cup"),
+            ("Chicken or vegetable broth", "2 1/2 cups"),
+            ("Butter", "2 tablespoons"),
+            ("Onion", "1/2, finely chopped"),
+            ("White wine", "1/4 cup"),
+            ("Parmesan cheese", "1/2 cup, grated"),
+            ("Mozzarella cheese", "1/2 cup, diced"),
+            ("Egg", "1, beaten"),
+            ("Breadcrumbs", "1 cup"),
+            ("Oil", "for frying"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste"),
+            ("Fresh parsley", "for garnish")
+        ],
+        steps: suppliSteps,
+        diff: 3,
+        imageName: "suppli",
+        time: "1h",
+        type: "sa"
+    ),
+   Recipe(
+        name: "Pasta with beans",
+        quantity: "Serves 6",
+        ingredients: [
+            ("Pasta", "1 cup"),
+            ("Cannellini beans", "1 can (15 oz), drained and rinsed"),
+            ("Tomato sauce", "1 cup"),
+            ("Vegetable broth", "4 cups"),
+            ("Carrot", "1, diced"),
+            ("Celery stalk", "1, diced"),
+            ("Onion", "1, diced"),
+            ("Garlic cloves", "2, minced"),
+            ("Bay leaf", "1"),
+            ("Fresh rosemary", "1 sprig"),
+            ("Fresh thyme", "1 sprig"),
+            ("Salt", "to taste"),
+            ("Black pepper", "to taste"),
+            ("Extra virgin olive oil", "2 tablespoons"),
+            ("Parmesan cheese", "for serving"),
+            ("Fresh parsley", "for garnish")
+        ],
+        steps: pastaBeansSteps,
+        diff: 2,
+        imageName: "pastaBeans",
+        time: "45min",
+        type: "sa"
+    ),
+    Recipe(
+        name: "Piadina",
+        quantity: "Makes 4 piadine",
+        ingredients: [
+            ("All-purpose flour", "2 cups"),
+            ("Baking powder", "1 teaspoon"),
+            ("Salt", "1/2 teaspoon"),
+            ("Water", "1/2 cup"),
+            ("Olive oil", "2 tablespoons")
+        ],
+        steps: piadinaSteps,
+        diff: 2,
+        imageName: "piadina",
+        time: "30min",
+        type: "sa"
+    ),
+    Recipe(
+        name: "Ricotta Cheese and Pears Cake",
+        quantity: "Makes one 9-inch cake",
+        ingredients: [
+            ("All-purpose flour", "1 1/2 cups"),
+            ("Baking powder", "2 teaspoons"),
+            ("Salt", "1/4 teaspoon"),
+            ("Unsalted butter", "1/2 cup, softened"),
+            ("Granulated sugar", "1 cup"),
+            ("Eggs", "3"),
+            ("Ricotta cheese", "1 cup"),
+            ("Vanilla extract", "1 teaspoon"),
+            ("Pears", "2, ripe but firm, peeled, cored, and sliced"),
+            ("Lemon juice", "1 tablespoon"),
+            ("Powdered sugar", "for dusting (optional)")
+        ],
+        steps: ricottapearsSteps,
+        diff: 4,
+        imageName: "ricottapears",
+        time: "1h 15min",
+        type: "sw"
+    ),
+     Recipe(
+        name: "Cassata Siciliana",
+        quantity: "Serves 8-10",
+        ingredients: [
+            ("Sponge cake", "1 (9-inch round)"),
+            ("Ricotta cheese", "500g"),
+            ("Powdered sugar", "1 cup"),
+            ("Candied fruit (citrus peel, cherries)", "1 cup, diced"),
+            ("Dark chocolate chips", "1/2 cup"),
+            ("Candied fruit syrup", "1/4 cup"),
+            ("Maraschino cherries", "for garnish"),
+            ("Green icing", "for decoration"),
+            ("Yellow icing", "for decoration"),
+            ("Red icing", "for decoration"),
+            ("Royal icing", "for decoration")
+        ],
+        steps: cassataSteps,
+        diff: 4,
+        imageName: "cassata",
+        time: "4h",
+        type: "sw"
+    ),
+    Recipe(
+        name: "Sponge Cake",
+        quantity: "Makes one 9-inch round cake",
+        ingredients: [
+            ("Eggs", "4, at room temperature"),
+            ("Granulated sugar", "1 cup"),
+            ("Vanilla extract", "2 teaspoons"),
+            ("All-purpose flour", "1 cup"),
+            ("Baking powder", "1 teaspoon"),
+            ("Salt", "1/4 teaspoon")
+        ],
+        steps: spongecakeSteps,
+        diff: 2,
+        imageName: "spongecake",
+        time: "45min",
+        type: "sw"
+    ),
+    Recipe(
+        name: "Paradise Cake",
+        quantity: "Makes one 9x13-inch cake",
+        ingredients: [
+            ("All-purpose flour", "2 cups"),
+            ("Granulated sugar", "2 cups"),
+            ("Baking soda", "1 teaspoon"),
+            ("Salt", "1/2 teaspoon"),
+            ("Crushed pineapple, undrained", "1 can (20 ounces)"),
+            ("Eggs", "2"),
+            ("Vanilla extract", "1 teaspoon"),
+            ("Chopped pecans", "1 cup")
+        ],
+        steps: paradiseSteps,
+        diff: 2,
+        imageName: "paradise",
+        time: "50min",
+        type: "sw"
+    ),
+    Recipe(
+        name: "Apple Strudel",
+        quantity: "Serves 8",
+        ingredients: [
+            ("Phyllo dough", "8 sheets"),
+            ("Apples", "6 large, peeled, cored, and thinly sliced"),
+            ("Granulated sugar", "1/2 cup"),
+            ("Ground cinnamon", "1 teaspoon"),
+            ("Ground nutmeg", "1/2 teaspoon"),
+            ("Lemon zest", "from 1 lemon"),
+            ("Raisins", "1/2 cup"),
+            ("Breadcrumbs", "1/2 cup"),
+            ("Butter", "1/4 cup, melted"),
+            ("Powdered sugar", "for dusting")
+        ],
+        steps: strudelSteps,
+        diff: 3,
+        imageName: "strudel",
+        time: "1h 15min",
+        type: "sw"
     )
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
