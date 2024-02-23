@@ -161,7 +161,7 @@ struct ContentView: View {
                 .background(Color.white)//COLORE SFONDO
                 .frame(minWidth: 300, idealWidth: 350, maxWidth: .infinity)
             }
-            .navigationBarTitle("Recipes").foregroundColor(.black)
+            .navigationBarTitle("Italicious").foregroundColor(.accentColor)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }

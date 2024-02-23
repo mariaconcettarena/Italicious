@@ -2,11 +2,17 @@
   "colors" : [
     {
       "color" : {
-        "platform" : "universal",
+        "platform" : "ios",
+        "reference" : "darkTextColor"
+      },
+      "idiom" : "universal"
+    },
+    {
+      "color" : {
+        "platform" : "ios",
         "reference" : "labelColor"
       },
-      "filename" : "Screenshot 2024-02-16 at 9.01.11 AM.png",
-      "idiom" : "universal"
+      "idiom" : "ipad"
     }
   ],
   "info" : {

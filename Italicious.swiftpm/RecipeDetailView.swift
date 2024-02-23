@@ -35,7 +35,7 @@ struct RecipeDetailView: View {
                     
                     Text("\(recipe.quantity)").font(Font.body.italic()).foregroundColor(mcs)
                     
-                }.shadow(color: Color.black.opacity(0.3), radius: 5, x: -10, y: 5)
+                }.foregroundColor(mcs)
                 
                 //ingredients
                 HStack{
@@ -46,7 +46,7 @@ struct RecipeDetailView: View {
                             Text("Ingredients")
                                 .font(.title).bold().foregroundColor(mcs)
                             
-                        }.shadow(color: Color.black.opacity(0.3), radius: 5, x: -10, y: 5)
+                        }
                         
                         
                         ForEach(recipe.ingredients, id: \.0) { ingredientTuple in
@@ -80,8 +80,8 @@ struct RecipeDetailView: View {
                         }
                     }
                    .offset(x:0,y:-80)
-                    .shadow(radius: 10)
-                }
+                  
+                }.foregroundColor(mcs)
                 
                 
                 //steps
@@ -91,7 +91,7 @@ struct RecipeDetailView: View {
                         Image(systemName: "list.clipboard").foregroundColor(mcs)
                         Text("Steps")
                             .font(.title).bold().foregroundColor(mcs)
-                    }.shadow(color: Color.black.opacity(0.3), radius: 5, x: -10, y: 5)
+                    }
                     
                     
                     
